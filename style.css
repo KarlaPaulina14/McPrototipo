@@ -251,3 +251,43 @@ td{
 /*********************************** MIO ********************************/
 
 
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 940px;
+    gap: 15px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.card{
+    height:  250px;
+    width: 300px;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.card:hover{
+    height:  500px;
+    width: 300px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-encabezado img{
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff;
+    object-fit: cover;
+    margin: 20px auto;
+    transition: all 0.3s ease; 
+}
+
