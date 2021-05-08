@@ -290,3 +290,105 @@ td{
     transition: all 0.3s ease; 
 }
 
+/************************REGISTRARSE************************/
+/*--FORMULARIO---------------------*/
+.form-reg{
+    width: 72%;
+    height: 400px;
+    margin-left: 30%;
+}
+.formulario{
+    padding: 25px;
+    box-shadow: 2px 0 10px rgb(255, 149, 0);
+    margin: 0px 5%;
+    margin-top: -30%;
+    display: inline-block;
+
+}
+
+/*--TITULO-------------------------*/
+.Ti{
+    margin-bottom: 30px;
+    color: #040c13;
+    text-align: center;
+    font-family:'Itim', cursive;
+    font-size: 30px;
+}
+
+/*--INPUTS-------------------------*/
+input{
+    padding: 6px;
+    border-radius: 2px;
+    border:none;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid rgb(109, 107, 107);
+    transition: all .3s ease;
+    font-size: 15px;
+}
+
+input:focus{
+    border: 3px solid #3a86de;
+}
+
+.input_correo{
+    width: 100%;
+}
+
+/*--GRUPO-NOMBRE-APELLIDO---------*/
+.grupo_nombre_apellido{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/*--GRUPO-CONTRASEÑA--------------*/
+.grupo_password{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/*--GRUPO-INICIAR-SESION-Y-BOTON--*/
+.grupo_iniciarsesion_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 38px;
+    line-height: 38px;
+}
+
+/*--INICIAR-SESION----------------*/
+.iniciar_sesion{
+    text-decoration: none;
+    color: #3984db;
+}
+
+.iniciar_sesion:hover{
+    color: #2f70bc;
+}
+
+/*--BOTON-------------------------*/
+.btn_registrarse{
+    padding: 10px;
+    width: 130px;
+    border: none;
+    border-radius: 2px;
+    background: #255389;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn_registrarse:hover{
+    background: #1e4777;
+}
+
+/*--PARRAFOS----------------------*/
+.input_paragraph{
+    font-size: 13px;
+    margin-top: 11px;
+    color: #4d4d4d;
+}
+

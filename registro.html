@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/72e5f5a93a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="contenedor">
+    <div class="move">
         <header style="background-color: rgb(255, 184, 4);">
             <img class="logo" src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/front/media/images/header/mcdonalds-logo.png" alt="logo">
             <div class="menu">
@@ -29,6 +29,65 @@
         <div class="fondo">
             <img style="margin-top: -10px;" src="https://d25dk4h1q4vl9b.cloudfront.net/bundles/common/headerbottom-home-v2.jpg" alt="fondo">
         </div>
+        <div class="form-reg">
+            
+         <form class="formulario">
+            <!--TITULO-->
+            <h2 class="Ti">Crea una cuenta</h2>
+            
+            <!--NOMBRE-Y-APELLIDO-->
+            <div class="grupo_nombre_apellido">
+                <div class="formulario_nombre">
+                    <label>Nombre</label>
+                    <div class="grupo_inputs">
+                        <input type="text" class="input_nombre" placeholder="Jhon" required>
+                    </div>
+                </div>
+                <div class="formulario_apellido">
+                    <label>Apellido</label>
+                    <div class="grupo_inputs">
+                        <input type="text" class="input_apellido" placeholder="Duo" required>
+                    </div>        
+                </div>
+            </div>
+            
+            <!--CORREO-ELECTRONICO-->
+            <div class="grupo_correo">
+                <label>Correo electronico</label>
+                <div class="grupo_inputs">
+                    <input type="email" class="input_correo" placeholder="correo@gmail.com" required>
+                    <p class="input_paragraph">Puedes utilizar letras, numero y puntos</p>
+                </div>
+            </div>
+            
+            <!--CONTRASEÑA-Y-CONFIRMACION-->
+            <div class="grupo_password">
+                <div class="formulario_grupo">
+                    <label>Contraseña</label>
+                    <div class="grupo_inputs">
+                        <input type="password" class="input_password" required>
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label>Confirmacion</label>
+                    <div class="grupo_inputs">
+                        <input type="password" class="inputs_confirmacion" required>
+                    </div>
+                </div>
+            </div>
+            
+            <!--PARRAFO-->
+            <p class="input_paragraph">Utiliza ocho caracteres como mínimo con una combinación de letras, número y símbolos</p>
+            
+            <!--INICIAR-SESION-Y-BOTON-DE-REGISTRAR-->
+            <div class="grupo_iniciarsesion_btn">
+                <a class="iniciar_sesion" href="">Prefiero iniciar sesión</a>
+                <button type="submit" class="btn_registrarse">Registrarse</button>
+            </div>
+         </form>
+
+        </div>
+        
     </div>
 </body>
 </html>
