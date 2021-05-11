@@ -20,6 +20,14 @@ body{
     width: 100%;
 }
 
+i{
+    margin-right: 5px;
+}
+
+.este{
+    border-bottom: 2px solid #000;
+}
+
 header{
     background-color: rgb(255, 184, 4);
     height: 100px;
@@ -40,7 +48,6 @@ header .menu ul li a{
     color: #000;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
     font-weight: 700;
     
 }
