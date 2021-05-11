@@ -422,7 +422,7 @@ img{
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: linear-gradient(-100deg,#ffcbcb, #fade6b);
+    background: linear-gradient(-100deg,#f87e7e, #fade6b);
     border-radius: 5%;
     border: 1px solid #fff;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
