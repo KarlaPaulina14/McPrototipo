@@ -137,18 +137,18 @@ header .contenedor-text .promo{
     height: 700px;
     box-shadow: 2px 0 10px rgb(255, 149, 0);
     margin: 0px 5%;
-    margin-top: -20%;
+    margin-top: -25%;
     display: inline-block;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 .carta4{
     width: 90%;
-    height: 350px;
+    height: 400px;
     box-shadow: 2px 0 10px rgb(255, 149, 0);
     margin: 0px 5%;
     display: inline-block;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
 
 .carta2{
@@ -158,7 +158,17 @@ header .contenedor-text .promo{
     margin: 0px 5%;
     margin-top: 0;
     display: inline-block;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
+}
+
+.carta3{
+    width: 90%;
+    height: 1000px;
+    box-shadow: 2px 0 10px rgb(255, 149, 0);
+    margin: 0px 5%;
+    margin-top: 0;
+    display: inline-block;
+    margin-bottom: 3%;
 }
 
 .c1{
@@ -167,7 +177,7 @@ header .contenedor-text .promo{
     font-size: 25px;
     text-align: center;
     font-weight:bold;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 .prod img{
     width: 180px;
@@ -359,9 +369,12 @@ input:focus{
     color: #d8d8d8;
 }
 
-/***************SEGUNDO INTENTO*******************/
+/***************SEGUNDO INTENTO Y SE QUEDA*******************/
 img{
     width: 100%;
+}
+.adelante img{
+    margin-top:20px;
 }
 
 .efecto_3d{
@@ -369,6 +382,7 @@ img{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-top: -30px;
 }
 
 .efecto__columna{
@@ -391,11 +405,37 @@ img{
     height: 100%;
     backface-visibility: hidden;
     background: linear-gradient(-100deg,#ffcbcb, #fade6b);
-    border-radius: 30%;
+    border-radius: 5%;
     border: 1px solid #fff;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
     object-fit: cover;
     left: 10px;
+}
+
+.atras:after,.atras:before{
+    position: absolute;
+    content: '';
+    opacity: .4;
+}
+
+.atras:after{
+    border-radius: 50%;
+    z-index: 25;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    right: 20px;
+}
+
+.atras:before{
+    width: 50px;
+    height: 70px;
+    bottom: 25px;
+    left: 19px;
+    border-radius: 20px;
+    background-color: rgb(238,42,98);
+    transform: rotate(120deg);
 }
 
 .atras{
@@ -425,48 +465,3 @@ img{
     }
 }
 
-
-/*************color**********/
-.contenedor2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 940px;
-    gap: 15px;
-    margin: auto;
-    justify-items: center;
-    align-items: center;
-}
-.card{
-    height: 250px;
-    width: 300px;
-    overflow: hidden;
-    margin: auto;
-    padding: 10px 30px;
-    border-radius: 2%;
-    border: 1px solid #fff;
-    transition: all .4s ease-in-out;
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
-    text-align: center;
-    background: linear-gradient(-100deg,#ffcbcb, #fade6b);
-}
-
-.card-encabezado img{
-    position: relative;
-    border-radius: 0%;
-    display: block;
-    height: 170px;
-    width: 200px;
-    border-top: 1px solid #fff;
-    border-bottom:1px solid #fff;
-    object-fit: cover;
-    transition: all 0.3s ease;
-    left: 10px;
-}
-.card-encabezado{
-    position: relative;
-}
-.card-encabezado:before, .card-encabezado:after{
-    position: absolute;
-    content: '';
-    opacity: .7;
-}
