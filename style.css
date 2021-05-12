@@ -463,7 +463,7 @@ img{
 
 b{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .contenedor3:hover .efecto__columna{
@@ -488,3 +488,15 @@ b{
     }
 }
 
+.calorias{
+    font-size: 20px;
+}
+
+.btn-ag{
+    background: rgb(255, 238, 0);
+    font-size:15px ;
+    padding: 5px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
