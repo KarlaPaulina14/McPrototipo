@@ -461,6 +461,11 @@ img{
     transform: rotateY(180deg);
 }
 
+b{
+    display: block;
+    font-size: 25px;
+}
+
 .contenedor3:hover .efecto__columna{
     transform: rotateY(180deg);
 }
