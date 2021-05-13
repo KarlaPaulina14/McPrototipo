@@ -22,6 +22,7 @@ body{
 
 i{
     margin-right: 5px;
+    
 }
 
 .este{
@@ -464,6 +465,7 @@ img{
 b{
     display: block;
     font-size: 20px;
+    margin-top: 5px;
 }
 
 .contenedor3:hover .efecto__columna{
@@ -490,13 +492,29 @@ b{
 
 .calorias{
     font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .btn-ag{
-    background: rgb(255, 238, 0);
+    background: rgb(255, 204, 0);
     font-size:15px ;
     padding: 5px;
     float: right;
     margin-top: 20px;
     margin-right: 10px;
+    border: 1px solid #ffd942;
+}
+
+.btn-ag:hover{
+    background: rgb(255, 221, 28);
+}
+
+.informacion{
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;
+}
+.informacion h2{
+    margin-bottom: 10px;
 }
